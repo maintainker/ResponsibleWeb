@@ -84,6 +84,21 @@ body{background: url(../img/header_bg.jpg) repeat-x center top;}
 .notice2 li::before {content: ''; width: 3px; height: 3px; border-radius: 50%; background: #449ce2; position: absolute; left: 0; top: 6px;}
 .notice2 .more {position: absolute; right: 0; top: 3px; color: #878787; text-transform: uppercase; font-size: 10px;}
 
+/* blog1 */
+.blog1{}
+.blog1 .img_normal{}
+.blog1 .img_retina{display: none;}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx) {
+ .blog1 .img-retina {display: initial;}
+ .blog1 .img-normal {display: none;}
+}
+.blog2{}
+.blog2 .img_normal{}
+
+
+
 /*mediaquery*/
 
 /*DISPLAY width 0~1220px*/
